@@ -78,3 +78,6 @@ def get_file():
         return {'result':1, 'data':return_data}
 
     return {'result':-1}
+
+if __name__ == "__main__":
+    app.run(debug=True)
